@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "WebLogin\\Datos\\DBUsuario.cs",
               "ToolTip": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Datos\\DBUsuario.cs",
               "RelativeToolTip": "WebLogin\\Datos\\DBUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswLwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T22:15:27.317Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "WebLogin\\Models\\CorreoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:13:37.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T22:13:37.704Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "WebLogin\\Models\\UsuarioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:10:02.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-15T22:10:02.075Z"
             }
           ]
         }
