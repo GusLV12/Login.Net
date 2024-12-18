@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|c:\\users\\linkz\\onedrive\\documentos\\dev\\csharp\\weblogin\\weblogin\\servicios\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|solutionrelative:weblogin\\servicios\\correoservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|c:\\users\\linkz\\onedrive\\documentos\\dev\\csharp\\weblogin\\weblogin\\servicios\\utilidadservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|solutionrelative:weblogin\\servicios\\utilidadservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|c:\\users\\linkz\\onedrive\\documentos\\dev\\csharp\\weblogin\\weblogin\\datos\\dbusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|solutionrelative:weblogin\\datos\\dbusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CorreoServicio.cs",
+              "DocumentMoniker": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Servicios\\CorreoServicio.cs",
+              "RelativeDocumentMoniker": "WebLogin\\Servicios\\CorreoServicio.cs",
+              "ToolTip": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Servicios\\CorreoServicio.cs",
+              "RelativeToolTip": "WebLogin\\Servicios\\CorreoServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:13:11.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UtilidadServicio.cs",
+              "DocumentMoniker": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Servicios\\UtilidadServicio.cs",
+              "RelativeDocumentMoniker": "WebLogin\\Servicios\\UtilidadServicio.cs",
+              "ToolTip": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Servicios\\UtilidadServicio.cs",
+              "RelativeToolTip": "WebLogin\\Servicios\\UtilidadServicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T20:55:22.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DBUsuario.cs",
               "DocumentMoniker": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Datos\\DBUsuario.cs",
               "RelativeDocumentMoniker": "WebLogin\\Datos\\DBUsuario.cs",
               "ToolTip": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Datos\\DBUsuario.cs",
               "RelativeToolTip": "WebLogin\\Datos\\DBUsuario.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAswLwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwLUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-15T22:15:27.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CorreoDTO.cs",
               "DocumentMoniker": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Models\\CorreoDTO.cs",
               "RelativeDocumentMoniker": "WebLogin\\Models\\CorreoDTO.cs",
@@ -51,11 +85,12 @@
               "RelativeToolTip": "WebLogin\\Models\\CorreoDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:13:37.704Z"
+              "WhenOpened": "2024-12-15T22:13:37.704Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Models\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "WebLogin\\Models\\UsuarioDTO.cs",
@@ -63,7 +98,8 @@
               "RelativeToolTip": "WebLogin\\Models\\UsuarioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T22:10:02.075Z"
+              "WhenOpened": "2024-12-15T22:10:02.075Z",
+              "EditorCaption": ""
             }
           ]
         }
