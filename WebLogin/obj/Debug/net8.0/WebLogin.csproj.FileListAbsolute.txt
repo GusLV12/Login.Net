@@ -1,0 +1,9 @@
+C:\Users\LINKZ\OneDrive\Documentos\Dev\CSHARP\WebLogin\WebLogin\obj\Debug\net8.0\WebLogin.csproj.AssemblyReference.cache
+C:\Users\LINKZ\OneDrive\Documentos\Dev\CSHARP\WebLogin\WebLogin\obj\Debug\net8.0\WebLogin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LINKZ\OneDrive\Documentos\Dev\CSHARP\WebLogin\WebLogin\obj\Debug\net8.0\WebLogin.AssemblyInfoInputs.cache
+C:\Users\LINKZ\OneDrive\Documentos\Dev\CSHARP\WebLogin\WebLogin\obj\Debug\net8.0\WebLogin.AssemblyInfo.cs
+C:\Users\LINKZ\OneDrive\Documentos\Dev\CSHARP\WebLogin\WebLogin\obj\Debug\net8.0\WebLogin.csproj.CoreCompileInputs.cache
+C:\Users\LINKZ\OneDrive\Documentos\Dev\CSHARP\WebLogin\WebLogin\obj\Debug\net8.0\WebLogin.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LINKZ\OneDrive\Documentos\Dev\CSHARP\WebLogin\WebLogin\obj\Debug\net8.0\WebLogin.RazorAssemblyInfo.cache
+C:\Users\LINKZ\OneDrive\Documentos\Dev\CSHARP\WebLogin\WebLogin\obj\Debug\net8.0\WebLogin.RazorAssemblyInfo.cs
+C:\Users\LINKZ\OneDrive\Documentos\Dev\CSHARP\WebLogin\WebLogin\obj\Debug\net8.0\WebLogin.sourcelink.json
