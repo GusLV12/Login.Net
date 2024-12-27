@@ -32,9 +32,9 @@ namespace WebLogin.Servicios
 
                 smtp.Authenticate(_Correo, _Clave);
                 smtp.Send(email);
-                smtp.Disconnected();
+                smtp.Disconnect(true);
 
-               return true;
+                return true;
 
             }catch (Exception ex)
             {
