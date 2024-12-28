@@ -38,5 +38,32 @@ namespace WebLogin.Controllers
 
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Registrar(UsuarioDTO user)
+        {
+            if(user.Clave != user.ConfirmarClave)
+            {
+                ViewBag.Nombre = user.Nombre;
+                ViewBag.Correo = user.Correo;
+                ViewBag.Mensaje = "La contraseña no coinciden";
+                return View();
+            }
+
+            if(DBUsuario.Obtener(user.Correo) == null)
+            {
+                user.Clave = UtilidadServicio.ConvertirSHA256(user.Clave);
+                user.Token = UtilidadServicio.GenerarToken();
+                user.Restablecer = false;
+                user.Confirmado = false;
+                bool res = DBUsuario.Registrar(user);
+            }
+            else
+            {
+                ViewBag.Mensaje = "El correo ya se encuentra registrado"
+            }
+
+            return View();
+        }
     }
 }
