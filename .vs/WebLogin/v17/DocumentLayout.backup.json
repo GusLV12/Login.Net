@@ -11,6 +11,14 @@
       "RelativeMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|solutionrelative:weblogin\\views\\inicio\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|c:\\users\\linkz\\onedrive\\documentos\\dev\\csharp\\weblogin\\weblogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|solutionrelative:weblogin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|c:\\users\\linkz\\onedrive\\documentos\\dev\\csharp\\weblogin\\weblogin\\servicios\\utilidadservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|solutionrelative:weblogin\\servicios\\utilidadservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|c:\\users\\linkz\\onedrive\\documentos\\dev\\csharp\\weblogin\\weblogin\\models\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4261BAE-4388-431C-9B63-8751A60F8257}|WebLogin\\WebLogin.csproj|solutionrelative:weblogin\\models\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,19 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UsuarioDTO.cs",
-              "DocumentMoniker": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Models\\UsuarioDTO.cs",
-              "RelativeDocumentMoniker": "WebLogin\\Models\\UsuarioDTO.cs",
-              "ToolTip": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Models\\UsuarioDTO.cs",
-              "RelativeToolTip": "WebLogin\\Models\\UsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Program.cs",
+              "RelativeDocumentMoniker": "WebLogin\\Program.cs",
+              "ToolTip": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Program.cs",
+              "RelativeToolTip": "WebLogin\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T07:08:35.177Z",
+              "WhenOpened": "2024-12-29T18:17:17.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UtilidadServicio.cs",
+              "DocumentMoniker": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Servicios\\UtilidadServicio.cs",
+              "RelativeDocumentMoniker": "WebLogin\\Servicios\\UtilidadServicio.cs",
+              "ToolTip": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Servicios\\UtilidadServicio.cs",
+              "RelativeToolTip": "WebLogin\\Servicios\\UtilidadServicio.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T18:00:26.705Z",
               "EditorCaption": ""
             },
             {
@@ -62,10 +83,22 @@
               "RelativeDocumentMoniker": "WebLogin\\Controllers\\InicioController.cs",
               "ToolTip": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Controllers\\InicioController.cs",
               "RelativeToolTip": "WebLogin\\Controllers\\InicioController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDoAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwF4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T22:01:49.495Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Models\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "WebLogin\\Models\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\LINKZ\\OneDrive\\Documentos\\Dev\\CSHARP\\WebLogin\\WebLogin\\Models\\UsuarioDTO.cs",
+              "RelativeToolTip": "WebLogin\\Models\\UsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T07:08:35.177Z"
             }
           ]
         }

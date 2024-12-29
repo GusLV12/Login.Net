@@ -1,5 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
 
 namespace WebLogin.Servicios
 {
@@ -26,6 +28,22 @@ namespace WebLogin.Servicios
         {
             string token = Guid.NewGuid().ToString();
             return token;
+        }
+
+    }
+
+    public class PathService
+    {
+        private readonly IWebHostEnvironment _env;
+
+        public PathService(IWebHostEnvironment env)
+        {
+            _env = env;
+        }
+
+        public string ObtenerRutaArchivo(string nombreArchivo)
+        {
+            return Path.Combine(_env.ContentRootPath, "Plantilla", nombreArchivo);
         }
     }
 }

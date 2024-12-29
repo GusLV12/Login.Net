@@ -1,7 +1,12 @@
+using WebLogin.Servicios;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Inyectando servicio de dependencias de PathService
+builder.Services.AddTransient<PathService>();
 
 var app = builder.Build();
 
