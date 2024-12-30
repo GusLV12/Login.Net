@@ -47,6 +47,11 @@ namespace WebLogin.Controllers
             return View();
         }
 
+        public IActionResult Registrar()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Registrar(UsuarioDTO user)
         {
@@ -99,6 +104,13 @@ namespace WebLogin.Controllers
             {
                 ViewBag.Mensaje = "El correo ya se encuentra registrado";
             }
+
+            return View();
+        }
+
+        public IActionResult Confirmar(string token)
+        {
+            ViewBag.Respuesta = DBUsuario.Confirmar(token);
 
             return View();
         }

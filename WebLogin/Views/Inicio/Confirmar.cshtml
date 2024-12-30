@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Confrimación";
+    Layout = "~/Views/_ViewStart.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <div class="container mt-3">
+        @if((bool)ViewBag.Respuesta){
+            <div class="alert alert-success">
+                <p><b>¡Listo!</b>&nbsp; Su cuenta ha sido confirmada.</p>
+                <a class="btn btn-link" href="@Url.Action("Login","Inicio")">Ingresar</a>
+            </div>
+        }else{
+            <div class="alert alert-danger">
+                <p><b>No se pudo confirmar su correo</b></p>
+                <a class="btn btn-link" href="@Url.Action("Login","Inicio")">Ingresar</a>
+            </div>
+        }
+    </div>
+</body>
+</html>
