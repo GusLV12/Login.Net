@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Restablecer";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <div class="row justify-content-center mt-5">
+        <div class="col-5">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center">Restablecer</h3>
+                </div>
+                <div class="card-body">
+                    @if (ViewBag.Restablecido == null)
+                    {
+                        <form action="@Url.Action("Restablecer","Inicio")" method="post">
+                            <p>Ingrese su direccion de correo y le enviaremos un correo de recuperación de cuenta.</p>
+
+                            <div class="mb-3">
+                                <label>Correo</label>
+                                <input type="email" name="correo" value="@(ViewBag.Correo ?? "")" class="form-control" required />
+                            </div>
+
+                            @if (ViewBag.Mensaje != null)
+                            {
+                                <div class="alert alert-danger">
+                                    @(ViewBag.Mensaje)
+                                </div>
+                            }
+
+                            <div class="mb-3">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="submit">Restablecer</button>
+                                    <a class="btn btn-link" href="@Url.Action("Registrar","Inicio")">Volver</a>
+                                    <a class="btn btn-link" href="@Url.Action("Login","Inicio")">Volver</a>
+                                </div>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="alert alert-success">
+                            <p>@(ViewBag.Mensaje)</p>
+                            <a class="btn btn-link" href="@Url.Action("Login","Inicio")">Ingresar</a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

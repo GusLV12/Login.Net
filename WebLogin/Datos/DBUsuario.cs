@@ -6,7 +6,7 @@ namespace WebLogin.Datos
 {
     public class DBUsuario
     {
-        private static string CadenaSQL = "Server=(local); DataBase=DBPrueba_test; Trusted_connection=True; TrustServerCertificate=True;";
+        private static string CadenaSQL = "Server=(local); DataBase=DBCRUDCORE; Trusted_connection=True; TrustServerCertificate=True;";
 
         // Método para registrar un usuario
         public static bool Registrar(UsuarioDTO usuario)

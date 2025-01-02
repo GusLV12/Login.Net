@@ -74,7 +74,7 @@ namespace WebLogin.Controllers
                 if (res)
                 {
                     // Usar PathService para obtener la ruta
-                    string path = _pathService.ObtenerRutaArchivo("Plantilla/Confirmar.html");
+                    string path = _pathService.ObtenerRutaArchivo("Confirmar.html");
                     string content = System.IO.File.ReadAllText(path);
                     string url = string.Format("{0}://{1}/Inicio/Confirmar?token={2}",
                             Request.Scheme,
@@ -112,6 +112,88 @@ namespace WebLogin.Controllers
         {
             ViewBag.Respuesta = DBUsuario.Confirmar(token);
 
+            return View();
+        }
+
+        public IActionResult Restablecer()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Restablecer(string correo)
+        {
+            UsuarioDTO user = DBUsuario.Obtener(correo);
+            ViewBag.Correo = correo;
+
+            if (user != null)
+            {
+                bool res = DBUsuario.ResTAct(1, user.Clave, user.Token);
+
+                if (res)
+                {
+                    // Usar PathService para obtener la ruta
+                    string path = _pathService.ObtenerRutaArchivo("Restablecer.html");
+                    string content = System.IO.File.ReadAllText(path);
+                    string url = string.Format("{0}://{1}/Inicio/Actualizar?token={2}",
+                            Request.Scheme,
+                            Request.Host,
+                            user.Token);
+
+                    string htmlBody = string.Format(content, user.Nombre, url);
+
+                    CorreoDTO correoDTO = new CorreoDTO()
+                    {
+                        Para = user.Correo,
+                        Asunto = "Restablecer cuenta",
+                        Contenido = htmlBody,
+                    };
+
+                    bool send = CorreoServicio.Enviar(correoDTO);
+                    ViewBag.Restablecido = true;
+                    ViewBag.Mensaje = $"Verifique su correo. Se ha enviado la confirmacion {user.Correo}";
+
+                }
+                else
+                {
+                    ViewBag.Mensaje = "No se pudo restablecer la cuenta";
+                }
+            }
+            else
+            {
+                ViewBag.Mensaje = "No se encontraron coincidencias con el correo";
+            }
+
+            return View();
+        }
+
+        public IActionResult Actualizar(string token)
+        {
+            ViewBag.Token = token;
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Actualizar(string token, string clave, string confirmarClave)
+        {
+            ViewBag.Token = token;
+
+            if (clave != confirmarClave)
+            {
+                ViewBag.Mensaje = "La contraseña no coinciden";
+                return View();
+            }
+
+            bool res = DBUsuario.ResTAct(0, UtilidadServicio.ConvertirSHA256(clave), token);
+
+            if (res)
+            {
+                ViewBag.Restablecido = true;
+            }
+            else
+            {
+                ViewBag.Mensaje = "No se pudo actualizar";
+            }
             return View();
         }
     }

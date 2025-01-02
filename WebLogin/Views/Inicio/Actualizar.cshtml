@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Actualizar";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+
+<body>
+    <div class="row justify-content-center mt-5">
+        <div class="col-5">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="text-center">Actualizar</h3>
+                </div>
+                <div class="card-body">
+                    @if (ViewBag.Restablecido == null)
+                    {
+                        <form action="@Url.Action("Actualizar","Inicio")" method="post">
+                            <p>Ingrese su direccion de correo y le enviaremos un correo de recuperación de cuenta.</p>
+                            <input type="hidden" name="token" value="ViewBag.Token" />
+                            <div class="mb-3">
+                                <label>Ingresar una nueva contraseña</label>
+                                <input type="password" name="clave" class="form-control" required />
+                            </div>
+                            <div class="mb-3">
+                                <label>Confirmar contraseña</label>
+                                <input type="password" name="confirmarClave" class="form-control" required />
+                            </div>
+
+                            @if (ViewBag.Mensaje != null)
+                            {
+                                <div class="alert alert-danger">
+                                    @(ViewBag.Mensaje)
+                                </div>
+                            }
+
+                            <div class="mb-3">
+                                <div class="d-grid">
+                                    <button class="btn btn-primary" type="submit">Cambiar contraseña</button>
+                                </div>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        <div class="alert alert-success">
+                            <p>@(ViewBag.Mensaje)</p>
+                            <a class="btn btn-link" href="@Url.Action("Login","Inicio")">Ingresar</a>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
